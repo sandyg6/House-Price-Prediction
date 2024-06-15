@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    background-image: url('./bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(255, 254, 254);
+}
+
+
+form {
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 25rem;
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    flex-direction: column;
+    background-color: rgba(11, 15, 13, 0.781);
+    box-shadow: 0 8px 32px 0 rgba(85, 25, 31, 0.37);
+    border-radius: 30px;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(63, 59, 59);
+    opacity: 0.90;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(245, 236, 236, 0.2);
+    letter-spacing: 1px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background: black;
+    width: 20%;
+    padding: 15px;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+label {
+    font-size: 18px;
+    color: whitesmoke;
+    opacity: 0.9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 20%;
+    margin-left: 1%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    opacity: 0.8;
+    border-bottom: 1px solid rgb(220, 212, 212);
+}
+
+button {
+    width: 40%;
+    margin-top: 30%;
+    margin: 3% auto;
+    color:white;
+    font-size: 15px;
+    opacity: 0.8;
+    background: rgba(149, 143, 143, 0.638);
+    padding: 7px 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, 0.37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}

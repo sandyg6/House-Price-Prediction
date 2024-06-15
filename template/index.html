@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House price prediction</title>
+     <link rel="stylesheet" href="/static/style.css"/>
+
+     <body>
+        <center>
+          
+          <h1>House Price Prediction</h1>
+          <form action="/predict" method="post">
+            <br>
+
+            <label for="param1">Area:</label>
+            <input type="text" name="param1"  /><br /><br />
+    
+            <label for="param2">No. of Bedrooms:</label>
+            <input type="text" name="param2"  /><br /><br />
+    
+            <label for="param1">No. of Bathrooms:</label>
+            <input type="text" name="param3" /><br /><br />
+    
+            <label for="param4">No. of Stories:</label>
+            <input type="text"  name="param4" /><br /><br />
+    
+            <label for="param5">Near Mainroad:</label>
+            <input type="text"  name="param5" /><br /><br />
+    
+            <label for="param6">Availability of Guestroom:</label>
+            <input type="text"  name="param6" /><br /><br />
+    
+            <label for="param7">Availability of Basement:</label>
+            <input type="text" name="param7" /><br /><br />
+    
+            <label for="param8">No. of Parking:</label>
+            <input type="text"  name="param8" /><br /><br />
+    
+            <label for="param9">Preferred area:</label>
+            <input type="text" name="param9" /><br /><br />
+    
+            <button>Predict</button>
+          </form>
+          <h2>{{result}}</h2>
+        </center>
+      </body>
