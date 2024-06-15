@@ -1,4 +1,4 @@
-# House Price Prediction
+# House Price Prediction 🏡
 
 ### Description:
 This repository contains a machine learning project focused on predicting house prices using the Random Forest Regressor algorithm. The goal of this project is to build a robust model that can accurately estimate the price of a house based on various features such as location, size, number of bedrooms, and other relevant factors.
